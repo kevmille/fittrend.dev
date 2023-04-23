@@ -4,14 +4,15 @@ import vercel from "@astrojs/vercel/serverless";
 import svelte from "@astrojs/svelte";
 import sitemap from "@astrojs/sitemap";
 import partytown from "@astrojs/partytown";
-
 import react from "@astrojs/react";
+
+import robotsTxt from "astro-robots-txt";
 
 // https://astro.build/config
 export default defineConfig({
   // ...
   site: "https://fittrend.dev",
-  integrations: [tailwind(), svelte(), sitemap(), partytown(), react()],
+  integrations: [tailwind(), svelte(), sitemap(), partytown(), react(), robotsTxt()],
   output: "server",
   adapter: vercel()
 });
