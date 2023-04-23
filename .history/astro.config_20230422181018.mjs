@@ -9,9 +9,7 @@ import partytown from "@astrojs/partytown";
 
 // https://astro.build/config
 export default defineConfig({
-  // ...
-  site: "https://fittrend.dev",
-  integrations: [tailwind(), svelte(), sitemap(), partytown()],
+  integrations: [tailwind(), svelte()],
   output: "server",
   adapter: vercel()
 });
