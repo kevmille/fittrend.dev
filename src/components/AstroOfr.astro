@@ -1,0 +1,7 @@
+---
+const response = await fetch('https://data.financialresearch.gov/v1/series/dataset?dataset=tyld&start_date=2020-07-23');
+const data = await response.json();
+console.log(data);
+---
+<h3>OFR Data: {data.short_name}</h3>
+<p>{JSON.stringify(data.timeseries)}</p>
