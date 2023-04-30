@@ -9,6 +9,8 @@ Astro Framework
 
 ## Info:
 
+Financial Index Tracker Trend - Purpose to make financial index tracking more laymen friendly.
+
 - Website URL: [https://fittrend.dev](https://fittrend.dev).
 - [Vercel](https://vercel.com) address: [https://fittrend.vercel.app/](https://fittrend.vercel.app/).
 - Repository at Github: [https://github.com/kevmille/fittrend.dev](https://github.com/kevmille/fittrend.dev).
